@@ -1,6 +1,6 @@
 const knex = require('knex');
 const app = require('../src/app');
-// const { makeFolderArray, makeMaliciousFolder } = require('./folder-fixtures');
+const expect = require('chai').expect;
 
 describe('Folder Endpoints', function() {
 	let db;
@@ -36,11 +36,11 @@ describe('Folder Endpoints', function() {
 		});
 
 		context('Given there are folders in the database', () => {
-			const testFolder = makeFolderArray();
+	// 		const testFolder = makeFolderArray();
 
-			beforeEach('insert folders', () => {
-				return db.into('folder').insert(testFolder);
-			});
+	// 		beforeEach('insert folders', () => {
+	// 			return db.into('folder').insert(testFolder);
+	// 		});
 
 			it('responds with 200 and all of the folders', () => {
 				return supertest(app)
@@ -50,7 +50,7 @@ describe('Folder Endpoints', function() {
 			});
 		});
 
-	});
+	// });
 
 	describe(`GET /api/folders/:folder_id`, () => {
 		context(`Given no folder`, () => {
@@ -64,11 +64,11 @@ describe('Folder Endpoints', function() {
 		});
 
 		context('Given there are folders in the database', () => {
-			const testFolder = makeFolderArray();
+			// const testFolder = makeFolderArray();
 
-			beforeEach('insert folder', () => {
-				return db.into('folder').insert(testFolder);
-			});
+			// beforeEach('insert folder', () => {
+			// 	return db.into('folder').insert(testFolder);
+			// });
 
 			it('responds with 200 and the specified folder', () => {
 				const id_folder = 2;
@@ -82,4 +82,4 @@ describe('Folder Endpoints', function() {
 
 	});
 
-});
+	}

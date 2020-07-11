@@ -37,8 +37,8 @@ describe(`GET /api/notes`, () => {
 	});
 
 	context('Given there are notes in the database', () => {
-		const testFolder = makeFolderArray();
-		const testNote = makeNoteArray();
+		// const testFolder = makeFolderArray();
+		// const testNote = makeNoteArray();
 
 		beforeEach('insert note', () => {
 			return db
