@@ -23,3 +23,43 @@
 {"message":"Unauthorized request to path: /api/notes","level":"error","timestamp":"06-17-2020 14:45:36","ms":"+2s"}
 {"message":"Unauthorized request to path: /api/notes/","level":"error","timestamp":"06-17-2020 14:45:43","ms":"+7s"}
 {"message":"Unauthorized request to path: /api/folders","level":"error","timestamp":"06-17-2020 14:45:53","ms":"+11s"}
+{"message":"id_folder is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-05-2020 19:49:15","ms":"+0ms"}
+{"message":"id_folder is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-05-2020 19:49:18","ms":"+4s"}
+{"message":"id_folder is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-05-2020 19:52:51","ms":"+4m"}
+{"message":"Invalid content 'note' supplied","level":"error","timestamp":"07-05-2020 19:53:08","ms":"+17s"}
+{"message":"POST Validation Error","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-05-2020 19:53:08","ms":"+2ms"}
+{"message":"Note with id 4 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-05-2020 20:36:30","ms":"+0ms"}
+{"message":"Note with id 5 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-05-2020 20:38:24","ms":"+2m"}
+{"message":"Note with id 13 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 13:48:40","ms":"+17h"}
+{"message":"Note with id 14 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 13:48:46","ms":"+5s"}
+{"message":"Note with id 15 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 13:48:46","ms":"+662ms"}
+{"message":"Note with id 16 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 13:48:47","ms":"+455ms"}
+{"message":"Note with id 17 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 13:48:47","ms":"+370ms"}
+{"message":"Note with id 18 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 13:56:18","ms":"+8m"}
+{"message":"Invalid content 'test' supplied","level":"error","timestamp":"07-06-2020 13:57:26","ms":"+1m"}
+{"message":"POST Validation Error","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 13:57:26","ms":"+1ms"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:10:47","ms":"+3h"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:13:57","ms":"+3m"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:14:41","ms":"+44s"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:15:32","ms":"+51s"}
+{"message":"Invalid name '22' supplied","level":"error","timestamp":"07-06-2020 17:15:53","ms":"+22s"}
+{"message":"POST Validation Error","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:15:53","ms":"+1ms"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:18:39","ms":"+3m"}
+{"message":"Invalid content '222' supplied","level":"error","timestamp":"07-06-2020 17:18:56","ms":"+17s"}
+{"message":"POST Validation Error","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:18:56","ms":"+2ms"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:19:19","ms":"+23s"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:20:01","ms":"+42s"}
+{"message":"Invalid content '333' supplied","level":"error","timestamp":"07-06-2020 17:20:16","ms":"+14s"}
+{"message":"POST Validation Error","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:20:16","ms":"+1ms"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:33:13","ms":"+13m"}
+{"message":"id_folder is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:39:18","ms":"+6m"}
+{"message":"Invalid content '555' supplied","level":"error","timestamp":"07-06-2020 17:41:05","ms":"+2m"}
+{"message":"POST Validation Error","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-06-2020 17:41:05","ms":"+1ms"}
+{"message":"Note with id 23 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-06-2020 19:19:01","ms":"+2h"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-08-2020 17:28:13","ms":"+0ms"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-08-2020 17:28:53","ms":"+40s"}
+{"message":"Note with id 24 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-08-2020 17:35:37","ms":"+7m"}
+{"message":"Note with id 25 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-08-2020 17:37:43","ms":"+2m"}
+{"message":"Note with id 26 created.","request":"/api/notes","method":"POST","ip":"::1","level":"info","timestamp":"07-08-2020 17:50:05","ms":"+12m"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-08-2020 18:19:57","ms":"+30m"}
+{"message":"name is required","request":"/api/notes","method":"POST","ip":"::1","level":"error","timestamp":"07-08-2020 19:15:36","ms":"+56m"}

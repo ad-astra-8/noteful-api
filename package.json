@@ -1,7 +1,7 @@
 {
-  "name": "noteful-api",
+  "name": "keto-diet-capstone-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Everything Keto app will help users gain all the information they need about the Keto diet.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
@@ -17,7 +17,7 @@
   "engines": {
     "node": "12.16.2"
   },
-  "author": "",
+  "author": "wanda antoine",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

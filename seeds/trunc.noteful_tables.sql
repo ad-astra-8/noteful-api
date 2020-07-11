@@ -1,4 +1,0 @@
-TRUNCATE
-  note,
-  folder
-  RESTART IDENTITY CASCADE;
